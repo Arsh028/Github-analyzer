@@ -21,7 +21,8 @@ function Users({users,loading})
 }
 UserItem.propTypes = {
     user : PropTypes.object.isRequired,
-    loading : PropTypes.bool.isRequired
+    //FIXME -fix shit
+    // loading : PropTypes.bool.isRequired
 };
 
 const userStyle = {
